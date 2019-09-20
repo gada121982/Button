@@ -1,0 +1,46 @@
+.hinhchunhat{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: rgb(250, 58, 0);
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.vongtron {
+    position: absolute;
+    background: rgba(221, 189, 99, 0.6);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 140px;
+}
+.vongtron .gach1 {
+    background: white;
+    width: 15px;
+    height: 3px;
+    margin-top: 15px;
+    margin-left: 20px;
+    transform: rotate(45deg);
+}
+
+.vongtron .gach2 {
+    background: white;
+    width: 15px;
+    height: 3px;
+    margin-top: 5px;
+    margin-left: 20px;
+    transform: rotate(-45deg);
+}
+
